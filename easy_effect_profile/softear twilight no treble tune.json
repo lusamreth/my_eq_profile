@@ -1,0 +1,127 @@
+{
+    "output": {
+        "blocklist": [],
+        "equalizer": {
+            "input-gain": 0.2,
+            "left": {
+                "band0": {
+                    "frequency": 23.0,
+                    "gain": -0.699999988079071,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.8999999761581421,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band1": {
+                    "frequency": 220.0,
+                    "gain": 2.9000000953674316,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.5,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band2": {
+                    "frequency": 2300.0,
+                    "gain": -2.700000047683716,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.5,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 5300.0,
+                    "gain": 1.2000000476837158,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.0,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 8000.0,
+                    "gain": 2.299999952316284,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.2000000476837158,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                }
+            },
+            "mode": "FIR",
+            "num-bands": 5,
+            "output-gain": 0.0,
+            "right": {
+                "band0": {
+                    "frequency": 23.0,
+                    "gain": -0.699999988079071,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.8999999761581421,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band1": {
+                    "frequency": 220.0,
+                    "gain": 2.9000000953674316,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.5,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band2": {
+                    "frequency": 2300.0,
+                    "gain": -2.700000047683716,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.5,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 5300.0,
+                    "gain": 1.2000000476837158,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.0,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 8000.0,
+                    "gain": 2.299999952316284,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.2000000476837158,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                }
+            },
+            "split-channels": false
+        },
+        "loudness": {
+            "fft": "8192",
+            "input-gain": 0.7,
+            "output-gain": 0.5,
+            "std": "ISO226-2003",
+            "volume": 3.0
+        },
+        "plugins_order": [
+            "equalizer",
+            "loudness"
+        ]
+    }
+}
